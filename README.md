@@ -34,6 +34,15 @@ if not(not len("baba") < 42):
   print("baba")
 ```
 
+In the context of this assignment, numeric constants are number we would write in everyday life: integers and floating point numbers, positive and negative (i.e., with a single negative sign included). So the following rewritings are expected:
+
+  - `5` to `42`
+  - `-1.2` to `42`
+  - `--3.7` to `-42` (we only convert `-3.7`)
+  - `~5` to `~42` (and NOT just `42`)
+  
+If you are not sure, raise a question via Slack.
+
 ### Skeleton
 
 This repository includes a skeleton code named `rewriter.py` for your rewriting tool. Please keep the existing code and the command line interface provided, so that GitHub Classroom can run the automated grading scripts. The usage is:

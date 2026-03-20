@@ -14,4 +14,4 @@ def run_target(target):
 def test_types():
     run_rewriter("examples/types.py")
     output = run_target("examples/types.py")
-    assert output == "84 baba 42 3.141592653589793 -42 -43\n"
+    assert output == "False baba 42 3.141592653589793 -42 -43 False\n"

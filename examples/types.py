@@ -1,7 +1,7 @@
 import math
 
-a = 3 + 4j
-b = "baba"
+a = False
+b = "foo"
 c = -1.2
 d = math.pi
 e = --5
